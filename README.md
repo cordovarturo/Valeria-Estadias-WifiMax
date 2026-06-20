@@ -77,7 +77,7 @@ El sistema se construye con dos piezas que trabajan en conjunto:
 
 ## Estado actual del proyecto
 
-> 🟡 **Fase: Onboarding / Fundación — Semana 1-2 de 16**
+>  **Fase: Onboarding / Fundación — Semana 1-2 de 16**
 
 | Componente | Estado |
 |---|---|
@@ -152,7 +152,7 @@ sudo usermod -aG docker $USER
 ```
 </details>
 
-> ⚠️ **Importante:** después de `usermod -aG docker $USER`, **cierra sesión por completo y vuelve a entrar** (o reinicia tu PC). Si no lo haces, todos los comandos `docker` van a fallar con `permission denied`.
+>  **Importante:** después de `usermod -aG docker $USER`, **cierra sesión por completo y vuelve a entrar** (o reinicia tu PC). Si no lo haces, todos los comandos `docker` van a fallar con `permission denied`.
 
 Verifica que quedó bien instalado:
 
@@ -186,7 +186,7 @@ Llena el formulario de creación con los datos de la siguiente sección. **Deja 
 
 ## Credenciales del entorno local
 
-> ⚠️ Estas credenciales son válidas **únicamente para el entorno de desarrollo local** de cada practicante (no contienen datos reales de clientes de Wifimax). Si en algún momento se despliega un servidor compartido del equipo o de producción, estas contraseñas deben cambiarse y **no deben quedar documentadas en texto plano**.
+>  Estas credenciales son válidas **únicamente para el entorno de desarrollo local** de cada practicante (no contienen datos reales de clientes de Wifimax). Si en algún momento se despliega un servidor compartido del equipo o de producción, estas contraseñas deben cambiarse y **no deben quedar documentadas en texto plano**.
 
 | Dato | Valor |
 |---|---|
@@ -282,7 +282,7 @@ db_password = odoo
 
 ## Cómo instalar el módulo de Odoo
 
-> ⚠️ **Para un módulo nuevo, usa siempre `-i` (install), nunca `-u` (update).** Usar `-u` en un módulo que nunca se ha instalado no hace nada — Odoo lo ignora silenciosamente. Este fue uno de los problemas reales documentados en la bitácora.
+>  **Para un módulo nuevo, usa siempre `-i` (install), nunca `-u` (update).** Usar `-u` en un módulo que nunca se ha instalado no hace nada — Odoo lo ignora silenciosamente. Este fue uno de los problemas reales documentados en la bitácora.
 
 ### Opción A — Desde la terminal (recomendada, más confiable)
 
